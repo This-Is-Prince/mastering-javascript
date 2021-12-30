@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  counter-reset: section;
+}
+ul {
+  margin: 0;
+  padding: 2rem;
+  list-style: none;
+}
+li {
+  margin: 1rem 0;
+}
+a::before {
+  color: crimson;
+  counter-increment: section;
+  content: "Section - " counter(section) " : ";
+}
+a {
+  font-size: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+  color: aqua;
+}
