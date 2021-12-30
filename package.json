@@ -19,5 +19,8 @@
   "homepage": "https://github.com/This-Is-Prince/mastering-javascript#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "jshint": "^2.13.2"
   }
 }
