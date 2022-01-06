@@ -4,7 +4,7 @@
   "description": "Mastering Javascript",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,7 @@
     "url": "https://github.com/This-Is-Prince/mastering-javascript/issues"
   },
   "homepage": "https://github.com/This-Is-Prince/mastering-javascript#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
   "dependencies": {
-    "jshint": "^2.13.2"
+    "vite": "^2.7.10"
   }
 }
